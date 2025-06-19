@@ -97,6 +97,11 @@ To prove that GCD(A,B)=GCD(B,R) we first need to show that GCD(A,B)=GCD(B,A-B).
 
 
 
+## Simulation Output 
+![image](https://github.com/user-attachments/assets/c963d054-590e-4a4c-89fe-f0487b849f5d)
+
+![image](https://github.com/user-attachments/assets/60f42d66-a877-4709-82a7-961ed3bc977f)
+
 
 
 
