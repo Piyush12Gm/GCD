@@ -12,6 +12,18 @@ If B = 0 then GCD(A,B)=A, since the GCD(A,0)=A, and we can stop.
 Write A in quotient remainder form (A = B⋅Q + R)
 Find GCD(B,R) using the Euclidean Algorithm since GCD(A,B) = GCD(B,R)
 
+For complex digital systems we 
+normally do not design the whole hardware in one piece. They are typically partitioned 
+in to two parts -   1.Data Path        2.Control Path
+## Data Path 
+It consists of the functional units, where all the computations are carried out.
+They will consist of typically some registers to store some data, multiplexers, 
+BUS, the adders, subtractors, multipliers, counters and similar functional blocks. So, in a 
+data path, there are a lot of hardware and things which are there, but we are not 
+specifying or telling exactly what to do with those hardware. 
+![image](https://github.com/user-attachments/assets/8b646ed2-6557-45d1-ba76-72712ac8d6de)
+
+
 ## PIPO Register (Parallel In Parallel Out 16-bit Register):
 It is used to store the two 16-bit input numbers, A and B, simultaneously, allowing them to be processed in parallel throughout the algorithm.
 
@@ -123,6 +135,12 @@ GCD(270,192) = GCD(192,78) = GCD(78,36) = GCD(36,6) = GCD(6,0) = 6
 
 
 ## LCM (Least Common Multiple)
+The Least Common Multiple (LCM) of two numbers is the smallest positive number that is evenly divisible by both of them.
 
 ![image](https://github.com/user-attachments/assets/43c01262-3ead-4545-adda-38c1402eb025)
+## Example
+Find the GCD of 270 and 192
+LCM(270,192)  = (270 * 192)/GCD(270,192)
+LCM(270,192)  =  51,840 / 6 
+## LCM(270,192)  =  8,640
 
