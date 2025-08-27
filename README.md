@@ -71,9 +71,9 @@ This recursive reduction ensures the problem gets smaller at each step.
 
 ##  Simulation Output
 
-| Simulation Waveform 1 | Simulation Waveform 2 |
+| Console Output  | Simulation Waveform  |
 |-----------------------|-----------------------|
-| ![Wave1](https://github.com/user-attachments/assets/c963d054-590e-4a4c-89fe-f0487b849f5d) | ![Wave2](https://github.com/user-attachments/assets/60f42d66-a877-4709-82a7-961ed3bc977f) |
+| ![Wave1](https://github.com/user-attachments/assets/c963d054-590e-4a4c-89fe-f0487b849f5d) | ![Wave2](https://github.com/user-attachments/assets/446b4ad5-473f-495e-ae71-e2b013713dd1) |
 
 ---
 
@@ -102,7 +102,6 @@ LCM(A, B) = \frac{A \times B}{GCD(A, B)}
 **Example:**  
 - `LCM(270,192) = (270 × 192) / 6 = 8640`
 
-![LCM Waveform](https://github.com/user-attachments/assets/446b4ad5-473f-495e-ae71-e2b013713dd1)
 
 ---
 
