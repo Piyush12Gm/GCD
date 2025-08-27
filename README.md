@@ -56,6 +56,8 @@ The **FSM** generates control signals to orchestrate datapath operations:
 ![FSM Diagram](https://github.com/user-attachments/assets/6443fe65-8161-4c44-80c4-5d0c76a327a3)
 
 ---
+**Datapath and Controller**
+![image](https://github.com/user-attachments/assets/ac48f8b3-5c19-483f-8dce-a6270dfdd245)
 
 ##  Algorithm Proof (Why It Works)
 
